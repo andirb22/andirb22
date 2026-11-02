@@ -27,6 +27,27 @@ También funcionan con `pytest python/`.
 | 09 | `09_servicio_pedidos.py` | Diseño de API: validación, idempotencia, paginación, estados | 40 min |
 | 10 | `10_sql_ventas.py` | SQL: ventanas, LEFT JOIN, HAVING, CTE recursiva, índices | 40 min |
 
+## Algoritmos (enunciados en inglés)
+
+Problemas clásicos de live coding con estructuras de datos de Python. Se ejecutan igual:
+`python python/13_queues_deque.py`.
+
+| # | Archivo | Tema | Tiempo |
+|---|---------|------|--------|
+| 11 | `11_tuples_delivery_points.py` | Tuples: sort keys, unpacking, sets of tuples, zip over pairs | 20 min |
+| 12 | `12_lists_matrix.py` | Lists of lists: spiral order, set zeroes in place, Pascal, transpose | 30 min |
+| 13 | `13_queues_deque.py` | Queues with deque: printer queue, hot potato, recent counter, ticket assignment | 30 min |
+| 14 | `14_stacks.py` | Stacks: RPN, daily temperatures (monotonic stack), Unix paths, MinStack | 30 min |
+| 15 | `15_sliding_window.py` | Fixed and variable windows, window maximum with deque, moving average | 35 min |
+| 16 | `16_two_pointers.py` | Merge sorted, 3Sum, Dutch flag, palindromes, container with most water | 35 min |
+| 17 | `17_hashing_counting.py` | dict/set/Counter: two sum, longest consecutive, isomorphic, route counting | 35 min |
+| 18 | `18_bfs_grid.py` | BFS on grids: shortest path with reconstruction, rotting oranges, knight moves | 45 min |
+| 19 | `19_heaps_priority.py` | heapq: merge k sorted, k-th largest, meeting rooms, running median | 45 min |
+| 20 | `20_simulations.py` | Loops and state: game of life, robot in a circle, cycle detection, bank queue | 45 min |
+
+Varias pruebas miden el tiempo con entradas grandes: si tu solución es correcta pero
+cuadrática, te avisarán ("too slow: is it O(n)?").
+
 **Consejo para practicar como en la entrevista:** pon un temporizador, explica en voz alta
 tu enfoque antes de escribir (fuerza bruta → optimización → casos borde) y responde las
 preguntas de "para pensar" al terminar.
