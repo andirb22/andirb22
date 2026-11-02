@@ -1,0 +1,12 @@
+{
+  "name": "ejercicios-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tipos": "tsc -p .",
+    "todo": "for f in [0-9][0-9]_*.ts; do echo \"== $f\"; node $f; done"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}
